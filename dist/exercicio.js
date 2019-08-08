@@ -3,7 +3,9 @@ var nota2 = 9;
 var nota3 = 5;
 var media = (nota1 + nota2 + nota3) / 3;
 console.log("sua media é " + media);
-if (media >= 7)
+if (media >= 7) {
     console.log("aprovado");
-else
+}
+else {
     console.log("reprovado");
+}
